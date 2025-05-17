@@ -16,7 +16,8 @@
 
 
 /* for x axis */
-/* .scroll-bounce-container.x {
+.scroll-bounce-container.x {
 	scroll-snap-type: x mandatory;
 	padding: 0 100px;
-} */
+	display: flex;
+}
