@@ -1,0 +1,22 @@
+.scroll-bounce-container {
+	overflow: scroll;
+	scroll-snap-type: y mandatory;
+	padding: 100px 0;
+}
+
+.scroll-bounce-container::after {
+	content: "";
+	display: block;
+	scroll-snap-align: end;
+}
+
+.scroll-bounce-content {
+	scroll-snap-align: start;
+}
+
+
+/* for x axis */
+/* .scroll-bounce-container.x {
+	scroll-snap-type: x mandatory;
+	padding: 0 100px;
+} */
